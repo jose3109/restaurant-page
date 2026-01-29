@@ -1,6 +1,6 @@
 import { merge } from 'webpack-merge'
-const common = require('./webpack.common.js');
-const path = require('path');
+import common from "./webpack.common.js";
+import path from "node:path";
 
 export default merge(common, {
     mode: 'production',
